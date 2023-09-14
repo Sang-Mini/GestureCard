@@ -17,7 +17,7 @@
 * BlendMode
 
 ## 🚀 시연 영상
-![알콜마셔요시연영상](https://github.com/Sang-Mini/BACCalculator/assets/105893642/ccdf4e3a-3ec7-4288-899c-246c5f417004) ![알콜마셔요시연영상2](https://github.com/Sang-Mini/BACCalculator/assets/105893642/2629cfc0-5079-4c6f-9a92-c0b39836b271)
+![제스처카드시연영상](https://github.com/Sang-Mini/GestureCard/assets/105893642/3946dc47-43b4-4f09-8c42-4f64ef9c94d8)
 
 ## 🤩 배운 점
 <p align="justify">
