@@ -22,7 +22,7 @@ struct Home: View {
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: imageSize)
-                    // 기울이기
+                // 기울이기
                     .rotationEffect(.init(degrees: -30))
                     .zIndex(1)
                     .offset(x: -20)
@@ -113,7 +113,7 @@ struct Home: View {
             .gesture(
                 // 드래그 제스처를 설정
                 DragGesture()
-                    // 제스처의 변경사항을 감지 후 업데이트
+                // 제스처의 변경사항을 감지 후 업데이트
                     .onChanged({ value in
                         offset = value.translation
                         // 제스처 종료 시 애니메이션과 함께 원래 위치로 복귀
