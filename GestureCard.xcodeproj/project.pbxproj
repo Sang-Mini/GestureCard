@@ -11,6 +11,7 @@
 		404A36222AB2EEE50095DBF7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404A36212AB2EEE50095DBF7 /* ContentView.swift */; };
 		404A36242AB2EEE60095DBF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 404A36232AB2EEE60095DBF7 /* Assets.xcassets */; };
 		404A36272AB2EEE60095DBF7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 404A36262AB2EEE60095DBF7 /* Preview Assets.xcassets */; };
+		404A362F2AB2EFE30095DBF7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404A362E2AB2EFE30095DBF7 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		404A36212AB2EEE50095DBF7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		404A36232AB2EEE60095DBF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		404A36262AB2EEE60095DBF7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		404A362E2AB2EFE30095DBF7 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		404A361E2AB2EEE50095DBF7 /* GestureCard */ = {
 			isa = PBXGroup;
 			children = (
+				404A362D2AB2EFD50095DBF7 /* View */,
 				404A361F2AB2EEE50095DBF7 /* GestureCardApp.swift */,
 				404A36212AB2EEE50095DBF7 /* ContentView.swift */,
 				404A36232AB2EEE60095DBF7 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				404A36262AB2EEE60095DBF7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		404A362D2AB2EFD50095DBF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				404A362E2AB2EFE30095DBF7 /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				404A36222AB2EEE50095DBF7 /* ContentView.swift in Sources */,
+				404A362F2AB2EFE30095DBF7 /* Home.swift in Sources */,
 				404A36202AB2EEE50095DBF7 /* GestureCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
